@@ -1,10 +1,10 @@
 import { MarcaCarro} from './MarcaCarro';
 
-export interface Seguro {
+export class Seguro {
     marcaCarro: MarcaCarro;
     modeloCarro: string;
     placaCarro: string;
     nomeProprietario: string;
-    sobrenome: string;
+    sobrenomeProprietario: string;
     dataNascimentoProprietario: string;
 }
